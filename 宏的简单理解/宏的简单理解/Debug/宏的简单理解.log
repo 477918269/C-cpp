@@ -1,0 +1,13 @@
+﻿生成启动时间为 2019-1-14 15:15:33。
+     1>项目“F:\CSDN博客\宏的简单理解\宏的简单理解\宏的简单理解.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\C语言\vs\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "源.c"
+         源.c
+     1>f:\csdn博客\宏的简单理解\宏的简单理解\源.c(9): error C2065: “y”: 未声明的标识符
+     1>f:\csdn博客\宏的简单理解\宏的简单理解\源.c(9): error C2099: 初始值设定项不是常量
+     1>f:\csdn博客\宏的简单理解\宏的简单理解\源.c(18): error C2017: 非法的转义序列
+     1>已完成生成项目“F:\CSDN博客\宏的简单理解\宏的简单理解\宏的简单理解.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.28
