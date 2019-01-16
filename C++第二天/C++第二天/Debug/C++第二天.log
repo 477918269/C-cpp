@@ -1,0 +1,12 @@
+﻿生成启动时间为 2019-1-16 16:38:13。
+     1>项目“F:\CSDN博客\C++第二天\C++第二天\C++第二天.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\C语言\vs\VS2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /Ob1 /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>源.cpp(29): error C2440: “return”: 无法从“Date *const ”转换为“int”
+                 没有使该转换得以执行的上下文
+     1>已完成生成项目“F:\CSDN博客\C++第二天\C++第二天\C++第二天.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.99
