@@ -1,0 +1,13 @@
+﻿生成启动时间为 2019-2-24 19:39:01。
+     1>项目“F:\C语言的库\C\2.24.1\2.24.1\2.24.1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\C语言\vs\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>f:\c语言的库\c\2.24.1\2.24.1\game.h(43): warning C4552: “>”: 运算符不起任何作用；应输入带副作用的运算符
+     1>f:\c语言的库\c\2.24.1\2.24.1\game.h(43): error C2143: 语法错误 : 缺少“;”(在“)”的前面)
+     1>f:\c语言的库\c\2.24.1\2.24.1\game.h(45): error C2065: “day”: 未声明的标识符
+     1>已完成生成项目“F:\C语言的库\C\2.24.1\2.24.1\2.24.1.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.61
