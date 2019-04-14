@@ -1,0 +1,44 @@
+﻿生成启动时间为 2019-4-13 15:13:39。
+     1>项目“F:\1刷题\领扣\4.13\4.13\4.13.vcxproj”在节点 2 上(ClCompile 个目标)。
+     1>ClCompile:
+         F:\C语言\vs\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>f:\1刷题\领扣\4.13\4.13\源.cpp(17): error C2679: 二进制“<<”: 没有找到接受“const std::string”类型的右操作数的运算符(或没有可接受的转换)
+                 f:\c语言\vs\vs2013\vc\include\ostream(498): 可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(478): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(458): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(438): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(418): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(397): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(377): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(356): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(336): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(316): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(291): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(271): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(237): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(217): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::_Bool)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(210): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+                 f:\c语言\vs\vs2013\vc\include\ostream(203): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+                 f:\c语言\vs\vs2013\vc\include\ostream(197): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+                 f:\c语言\vs\vs2013\vc\include\ostream(1026): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(988): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,const _Ty1>(std::basic_ostream<char,std::char_traits<char>> &&,const _Ty &)”
+                 with
+                 [
+                     _Ty1=std::string
+         ,            _Ty=std::string
+                 ]
+                 f:\c语言\vs\vs2013\vc\include\ostream(978): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(971): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(964): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(957): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(831): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(784): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(746): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+                 f:\c语言\vs\vs2013\vc\include\ostream(699): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+                 尝试匹配参数列表“(std::ostream, const std::string)”时
+     1>已完成生成项目“F:\1刷题\领扣\4.13\4.13\4.13.vcxproj”(ClCompile 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.13
