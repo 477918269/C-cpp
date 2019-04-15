@@ -1,0 +1,14 @@
+﻿生成启动时间为 2019-4-15 18:14:10。
+     1>项目“F:\1刷题\领扣\4.15\4.15\4.15.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\C语言\vs\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>f:\1刷题\领扣\4.15\4.15\源.cpp(31): error C3861: “sleep”:  找不到标识符
+                 f:\1刷题\领扣\4.15\4.15\源.cpp(29): 编译类 模板 成员函数“BSTree<int>::~BSTree(void)”时
+                 f:\1刷题\领扣\4.15\4.15\源.cpp(115): 参见对正在编译的函数 模板 实例化“BSTree<int>::~BSTree(void)”的引用
+                 f:\1刷题\领扣\4.15\4.15\源.cpp(115): 参见对正在编译的类 模板 实例化“BSTree<int>”的引用
+     1>已完成生成项目“F:\1刷题\领扣\4.15\4.15\4.15.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.38
