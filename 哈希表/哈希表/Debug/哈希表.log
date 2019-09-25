@@ -1,0 +1,23 @@
+﻿生成启动时间为 2019-9-24 15:12:18。
+     1>项目“F:\2C语言的库\C\哈希表\哈希表\哈希表.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\C语言\vs\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>f:\2c语言的库\c\哈希表\哈希表\源.cpp(28): error C2065: “K”: 未声明的标识符
+     1>f:\2c语言的库\c\哈希表\哈希表\源.cpp(28): error C2065: “V”: 未声明的标识符
+     1>f:\2c语言的库\c\哈希表\哈希表\源.cpp(28): error C2923: “std::pair”: 对于参数“_Ty1”，“K”不是有效的 模板 类型变量
+     1>f:\2c语言的库\c\哈希表\哈希表\源.cpp(28): error C2923: “std::pair”: 对于参数“_Ty2”，“V”不是有效的 模板 类型变量
+     1>f:\2c语言的库\c\哈希表\哈希表\源.cpp(65): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>f:\2c语言的库\c\哈希表\哈希表\源.cpp(65): error C2143: 语法错误 : 缺少“,”(在“&”的前面)
+     1>f:\2c语言的库\c\哈希表\哈希表\源.cpp(84): error C3203: “HashNode”: 未专用化的 类 模板 不能用作 模板 变量，该变量属于 模板 参数“_Ty”，应为 real 类型
+     1>f:\2c语言的库\c\哈希表\哈希表\源.cpp(32): error C2065: “_kv”: 未声明的标识符
+     1>f:\2c语言的库\c\哈希表\哈希表\源.cpp(32): error C2228: “.first”的左边必须有类/结构/联合
+                 类型是“unknown-type”
+     1>f:\2c语言的库\c\哈希表\哈希表\源.cpp(33): error C2228: “._state”的左边必须有类/结构/联合
+                 类型是“int”
+     1>f:\2c语言的库\c\哈希表\哈希表\源.cpp(33): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+     1>已完成生成项目“F:\2C语言的库\C\哈希表\哈希表\哈希表.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.49
