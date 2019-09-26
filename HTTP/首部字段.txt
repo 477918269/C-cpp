@@ -1,0 +1,7 @@
+Content-Type
+Content-Length
+Host
+User-Agent
+referer
+location
+Cookie
