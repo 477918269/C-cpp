@@ -1,0 +1,12 @@
+7.epoll和select,poll区别，高效在哪?
+有没有听过select和epoll，都没有深入了 问
+10.I/O复用的select和epoll是怎么实现的，有哪些区别，解释一下ET和LT状态，他们的区别 ？
+讲了一下epoll和select的区别，讲了一下水平触发和边缘触发.
+3.select和epoll的区别，分析et和lt的区别，以及试着实现？
+8.select与epoll，为什么不使用select？
+9.epoll中ET与LT模式，详细讲，问应用场景，优势，为什么ET只支持非阻塞？
+10.讲讲EPOLLONESHOT。
+12.select poll epoll 实现区别优势
+应用场景.
+epoll模型的两种模式以及与select比较
+4.epoll/poll、select服务器，各有什么好处

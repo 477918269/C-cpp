@@ -1,0 +1,29 @@
+select解决了I/O等待的问题，但是函数设计不好，检测的文件符有上限，函数多次循环遍历导致select在实际场所中使用不广泛。
+
+而poll对select的上述情况做了优化。
+
+函数:
+int poll(struct pollfd* fds, nfds_t nfds, int timeout)
+fds:这个参数是struct pollfd类型结构体指针，结构体种存放关于要关心文件描述符的一些东西
+nfds：表示第一个参数数组的大小
+timeout:超时时间设置，单位为毫秒，0为非阻塞等待，>0等待n毫秒后返回，-1阻塞式等待。
+
+struct pollfd{
+int fd;
+short events;
+short revents;
+}
+
+fd:表示要关心的文件描述符
+events:位图，从用户到内核的输出型参数
+revents:位图，从内核到用户的输入型参数
+
+一些在events和revents都能发生的事件：
+一些只有revents能发生的
+
+poll的缺点:
+1.poll和select一样，每次关心这些事件时都要拷贝大量数据到内核态。select要拷贝fd_set位图，poll拷贝pollfd数组
+2.每次事件就绪后并不知道这些文件描述符种到底哪种文件描述符上的事件就绪，所以不管select还是poll都要循环位图或数组寻找哪个已经就绪的描述符。
+最大的问题就是事件就绪后的循环遍历，双十一例子。
+
+
